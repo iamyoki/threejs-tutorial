@@ -288,8 +288,8 @@ const cubes = [cube1, cube2, cube3]
 - cube.rotation.x = time
 - cube.rotation.y = time
     
-+ //通过 cube.map 循环遍历修改网格相关属性
-+ cubes.map(cube => {
++ //通过 cube.forEach 循环遍历修改网格相关属性
++ cubes.forEach(cube => {
 +     cube.rotation.x = time
 +     cube.rotation.y = time
 + })
